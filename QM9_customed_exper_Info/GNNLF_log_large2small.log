@@ -1,0 +1,363 @@
+{'add_ef2dir': True, 'batch_size': 32, 'cutoff': 7.0, 'dir2mask_tailact': False, 'ef2mask_tailact': True, 
+'ef_decay': True, 'ef_dim': 96, 'ev_decay': True, 'hid_dim': 256, 'ln_emb': False, 'lr': 0.003, 'num_mplay
+er': 8, 'patience': 20, 'rbf': 'nexpnorm', 'rbound_lower': 0.0, 'warmup': 10, 'ln_lin1': True, 'ln_s2v': T
+rue, 'max_z': 20, 'wd': 0, 'lin1_tailact': True, 'use_dir1': False}                                       
+seed 0                    
+numel 1284980             
+tst E 97.4604             
+iter 0 lr 3.0000e-05 trn E 131664.1021 val E 121.6325                                                     
+tst E 36.8334             
+iter 1 lr 4.6996e-05 trn E 10064.8486 val E 44.4514                                                       
+tst E 25.9046             
+iter 2 lr 7.3620e-05 trn E 2703.1930 val E 29.8658                                                        
+tst E 34.6314             
+iter 3 lr 1.1533e-04 trn E 1473.7297 val E 25.3133                                                        
+tst E 19.4846             
+iter 4 lr 1.8066e-04 trn E 993.3441 val E 20.5171                                                         
+tst E 23.1253             
+iter 5 lr 2.8301e-04 trn E 720.9048 val E 17.7565                                                         
+tst E 28.8542             
+iter 6 lr 4.4335e-04 trn E 555.8254 val E 17.4214                                                         
+tst E 13.1103             
+iter 7 lr 6.9452e-04 trn E 482.9637 val E 14.9115                                                         
+iter 8 lr 1.0880e-03 trn E 429.3605 val E 16.6255                                                         
+iter 9 lr 1.7043e-03 trn E 415.9368 val E 20.9301                                                         
+tst E 11.2446             
+iter 10 lr 2.6699e-03 trn E 346.4838 val E 11.6975                                                        
+iter 11 lr 2.6699e-03 trn E 257.8865 val E 11.8724                                                        
+tst E 9.7283              
+iter 12 lr 2.6699e-03 trn E 221.6828 val E 9.5426                                                         
+iter 13 lr 2.6699e-03 trn E 186.8601 val E 9.9080                                                         
+iter 14 lr 2.6699e-03 trn E 154.9696 val E 9.7295                                                         
+tst E 9.5018              
+iter 15 lr 2.6699e-03 trn E 144.5910 val E 8.6910                                                         
+tst E 8.7589              
+iter 16 lr 2.6699e-03 trn E 125.1884 val E 8.3079                                                         
+tst E 8.3497              
+iter 17 lr 2.6699e-03 trn E 109.4819 val E 7.8154                                                         
+iter 18 lr 2.6699e-03 trn E 101.9421 val E 8.1294                                                         
+tst E 8.1914              
+iter 19 lr 2.6699e-03 trn E 92.2804 val E 7.3368                                                          
+iter 20 lr 2.6699e-03 trn E 84.1825 val E 7.7506                                                          
+iter 21 lr 2.6699e-03 trn E 81.2014 val E 7.4440                                                          
+tst E 7.0416              
+iter 22 lr 2.6699e-03 trn E 69.5193 val E 7.0134                                                          
+iter 23 lr 2.6699e-03 trn E 71.2752 val E 9.1257                                                          
+iter 24 lr 2.6699e-03 trn E 62.2560 val E 7.6590                                                          
+tst E 7.3990              
+iter 25 lr 2.6699e-03 trn E 60.7074 val E 6.6124                                                          
+iter 26 lr 2.6699e-03 trn E 55.3405 val E 6.7944                                                          
+tst E 7.0398              
+iter 27 lr 2.6699e-03 trn E 52.1974 val E 6.1208                                                          
+iter 28 lr 2.6699e-03 trn E 49.9437 val E 7.7830                                                          
+iter 29 lr 2.6699e-03 trn E 48.8718 val E 6.7307                                                          
+iter 30 lr 2.6699e-03 trn E 45.0513 val E 6.3080                                                          
+tst E 6.8621                                         
+iter 31 lr 2.6699e-03 trn E 46.4249 val E 5.9349                                                          
+iter 32 lr 2.6699e-03 trn E 41.2181 val E 6.2291                                                          
+iter 33 lr 2.6699e-03 trn E 39.9446 val E 6.2918                                                          
+iter 34 lr 2.6699e-03 trn E 38.1116 val E 6.0140                                                          
+tst E 6.3599                                         
+iter 35 lr 2.6699e-03 trn E 37.6172 val E 5.8673                                                          
+iter 36 lr 2.6699e-03 trn E 34.3194 val E 6.5692                                                          
+iter 37 lr 2.6699e-03 trn E 33.7014 val E 6.1024                                                          
+iter 38 lr 2.6699e-03 trn E 33.0446 val E 6.3733                                                          
+iter 39 lr 2.6699e-03 trn E 32.3854 val E 5.9585                                                          
+iter 40 lr 2.6699e-03 trn E 29.9537 val E 5.8805
+tst E 6.3154                                         
+iter 41 lr 2.6699e-03 trn E 28.8967 val E 5.6311                                                          
+tst E 6.0534                                         
+iter 42 lr 2.6699e-03 trn E 28.6387 val E 5.5296                                                          
+iter 43 lr 2.6699e-03 trn E 28.3743 val E 5.5736                                                          
+iter 44 lr 2.6699e-03 trn E 27.3325 val E 5.5520                                                          
+iter 45 lr 2.6699e-03 trn E 25.0201 val E 5.6454                                                          
+tst E 6.1445                                         
+iter 46 lr 2.6699e-03 trn E 24.8830 val E 5.4880                                                          
+tst E 5.9319                                         
+iter 47 lr 2.6699e-03 trn E 24.8158 val E 5.2600                                                          
+tst E 5.9723                                         
+iter 48 lr 2.6699e-03 trn E 24.2846 val E 5.2332                                                          
+iter 49 lr 2.6699e-03 trn E 23.3420 val E 5.3097                                                          
+iter 50 lr 2.6699e-03 trn E 22.8989 val E 5.2727                                                          
+iter 51 lr 2.6699e-03 trn E 22.1603 val E 5.4777                                                          
+tst E 6.0697                                         
+iter 52 lr 2.6699e-03 trn E 21.7445 val E 5.1663                                                          
+tst E 5.5159                                         
+iter 53 lr 2.6699e-03 trn E 21.4232 val E 5.1054                                                          
+iter 54 lr 2.6699e-03 trn E 20.7998 val E 5.2404                                                          
+iter 55 lr 2.6699e-03 trn E 21.0113 val E 5.3094                                                          
+iter 56 lr 2.6699e-03 trn E 20.6025 val E 5.3847                                                          
+tst E 6.0988                                         
+iter 57 lr 2.6699e-03 trn E 19.5415 val E 5.0332                                                          
+iter 58 lr 2.6699e-03 trn E 18.3636 val E 5.0751                                                          
+iter 59 lr 2.6699e-03 trn E 18.5739 val E 5.1911                                                          
+iter 60 lr 2.6699e-03 trn E 17.9489 val E 5.1363                                                          
+tst E 5.7753                                         
+iter 61 lr 2.6699e-03 trn E 19.5247 val E 4.9111                                                          
+iter 62 lr 2.6699e-03 trn E 16.8705 val E 5.0899                                                          
+iter 63 lr 2.6699e-03 trn E 17.7639 val E 5.2862                                                          
+iter 64 lr 2.6699e-03 trn E 16.9957 val E 5.0044  
+iter 65 lr 2.6699e-03 trn E 16.6874 val E 5.0722                                                          
+iter 66 lr 2.6699e-03 trn E 16.0710 val E 5.2667                                                          
+iter 67 lr 2.6699e-03 trn E 16.0753 val E 4.9269                                                          
+iter 68 lr 2.6699e-03 trn E 15.4502 val E 5.1716                                                          
+iter 69 lr 2.6699e-03 trn E 16.0070 val E 5.4907                                                          
+iter 70 lr 2.6699e-03 trn E 15.4580 val E 5.4108                                                          
+tst E 5.5569                                         
+iter 71 lr 2.6699e-03 trn E 14.7092 val E 4.8461                                                          
+iter 72 lr 2.6699e-03 trn E 15.1028 val E 5.5361                                                          
+iter 73 lr 2.6699e-03 trn E 14.8419 val E 6.3574                                                          
+iter 74 lr 2.6699e-03 trn E 14.5771 val E 4.8800                                                          
+iter 75 lr 2.6699e-03 trn E 15.5708 val E 4.8519                                                          
+iter 76 lr 2.6699e-03 trn E 13.8486 val E 4.9252                                                          
+iter 77 lr 2.6699e-03 trn E 13.8199 val E 4.8729                                                          
+iter 78 lr 2.6699e-03 trn E 13.3568 val E 4.9338                                                          
+tst E 5.8721                                         
+iter 79 lr 2.6699e-03 trn E 13.7862 val E 4.8349                                                          
+tst E 5.4085                                         
+iter 80 lr 2.6699e-03 trn E 13.3075 val E 4.7941                                                          
+iter 81 lr 2.6699e-03 trn E 13.2282 val E 4.9262                                                          
+iter 82 lr 2.6699e-03 trn E 13.1647 val E 4.9527                                                          
+iter 83 lr 2.6699e-03 trn E 13.0489 val E 4.9541                                                          
+iter 84 lr 2.6699e-03 trn E 12.8922 val E 4.8342                                                          
+iter 85 lr 2.6699e-03 trn E 12.6778 val E 4.9076                                                          
+tst E 5.1593                                         
+iter 86 lr 2.6699e-03 trn E 12.3517 val E 4.7178                                                          
+iter 87 lr 2.6699e-03 trn E 12.2869 val E 4.9100                                                          
+iter 88 lr 2.6699e-03 trn E 12.4491 val E 4.7762                                                          
+iter 89 lr 2.6699e-03 trn E 11.7209 val E 4.8449                                                          
+iter 90 lr 2.6699e-03 trn E 11.7803 val E 5.1369                                                          
+iter 91 lr 2.6699e-03 trn E 11.2519 val E 4.7609                                                          
+iter 92 lr 2.6699e-03 trn E 11.3334 val E 5.1056                                                          
+iter 93 lr 2.6699e-03 trn E 11.1922 val E 4.8514                                                          
+iter 94 lr 2.6699e-03 trn E 11.0706 val E 4.7252
+iter 95 lr 2.6699e-03 trn E 10.9022 val E 4.8134                                                          
+iter 96 lr 2.6699e-03 trn E 11.2193 val E 5.4417                                                          
+tst E 5.3175                                         
+iter 97 lr 2.6699e-03 trn E 10.5545 val E 4.6905                                                          
+iter 98 lr 2.6699e-03 trn E 10.5767 val E 4.8092                                                          
+iter 99 lr 2.6699e-03 trn E 10.8301 val E 5.0430                                                          
+iter 100 lr 2.6699e-03 trn E 10.4004 val E 4.9235                                                         
+tst E 5.4500                                         
+iter 101 lr 2.6699e-03 trn E 10.8943 val E 4.6851                                                         
+tst E 5.6624                                         
+iter 102 lr 2.6699e-03 trn E 10.6401 val E 4.6850                                                         
+iter 103 lr 2.6699e-03 trn E 9.8859 val E 4.6899                                                          
+tst E 5.1702                                         
+iter 104 lr 2.6699e-03 trn E 10.3993 val E 4.5638                                                         
+iter 105 lr 2.6699e-03 trn E 9.8820 val E 4.6870                                                          
+iter 106 lr 2.6699e-03 trn E 10.0247 val E 4.6358                                                         
+iter 107 lr 2.6699e-03 trn E 9.7468 val E 4.6801                                                          
+iter 108 lr 2.6699e-03 trn E 10.1284 val E 4.5884                                                         
+iter 109 lr 2.6699e-03 trn E 9.7635 val E 4.6273                                                          
+iter 110 lr 2.6699e-03 trn E 9.6507 val E 5.2928                                                          
+iter 111 lr 2.6699e-03 trn E 9.4969 val E 5.2159                                                          
+tst E 5.2414                                         
+iter 112 lr 2.6699e-03 trn E 9.4913 val E 4.5418                                                          
+iter 113 lr 2.6699e-03 trn E 9.3716 val E 4.6637                                                          
+iter 114 lr 2.6699e-03 trn E 9.0772 val E 4.9809                                                          
+iter 115 lr 2.6699e-03 trn E 8.8720 val E 4.5703                                                          
+iter 116 lr 2.6699e-03 trn E 8.9842 val E 4.6816                                                          
+iter 117 lr 2.6699e-03 trn E 8.8765 val E 4.7319                                                          
+iter 118 lr 2.6699e-03 trn E 8.5505 val E 4.7518                                                          
+iter 119 lr 2.6699e-03 trn E 8.9850 val E 4.7193                                                          
+iter 120 lr 2.6699e-03 trn E 8.8179 val E 4.7025                                                          
+iter 121 lr 2.6699e-03 trn E 8.5815 val E 5.2466                                                          
+iter 122 lr 2.6699e-03 trn E 8.8129 val E 4.6033                                                          
+iter 123 lr 2.6699e-03 trn E 8.3969 val E 4.6281
+iter 124 lr 2.6699e-03 trn E 8.3275 val E 5.0025                                                          
+tst E 4.9476                                         
+iter 125 lr 2.6699e-03 trn E 8.3702 val E 4.4844                                                          
+iter 126 lr 2.6699e-03 trn E 8.5143 val E 5.2112                                                          
+iter 127 lr 2.6699e-03 trn E 8.3660 val E 4.8771                                                          
+iter 128 lr 2.6699e-03 trn E 8.3122 val E 4.7011                                                          
+iter 129 lr 2.6699e-03 trn E 8.1784 val E 4.6240                                                          
+iter 130 lr 2.6699e-03 trn E 8.1327 val E 4.8870                                                          
+iter 131 lr 2.6699e-03 trn E 8.0355 val E 4.6043                                                          
+iter 132 lr 2.6699e-03 trn E 7.9846 val E 4.5419                                                          
+iter 133 lr 2.6699e-03 trn E 7.9706 val E 4.7843                                                          
+iter 134 lr 2.6699e-03 trn E 7.8608 val E 4.6835                                                          
+iter 135 lr 2.6699e-03 trn E 7.8957 val E 4.4853                                                          
+iter 136 lr 2.6699e-03 trn E 7.9315 val E 4.5210                                                          
+iter 137 lr 2.6699e-03 trn E 7.7969 val E 4.4852                                                          
+iter 138 lr 2.6699e-03 trn E 7.6693 val E 4.5767                                                          
+iter 139 lr 2.6699e-03 trn E 7.4865 val E 4.7606                                                          
+iter 140 lr 2.6699e-03 trn E 7.7533 val E 4.7266                                                          
+iter 141 lr 2.6699e-03 trn E 7.7840 val E 4.7718                                                          
+iter 142 lr 2.6699e-03 trn E 7.5334 val E 4.5053                                                          
+iter 143 lr 2.6699e-03 trn E 7.1844 val E 4.5742                                                          
+iter 144 lr 2.6699e-03 trn E 7.3670 val E 4.6065                                                          
+iter 145 lr 2.6699e-03 trn E 7.1702 val E 4.5289                                                          
+iter 146 lr 2.6699e-03 trn E 7.4702 val E 4.5047                                                          
+tst E 4.8831                                                                                              
+iter 147 lr 1.6019e-03 trn E 3.8531 val E 4.2862                                                          
+tst E 5.0975                                                                                              
+iter 148 lr 1.6019e-03 trn E 3.1302 val E 4.2397                                                          
+iter 149 lr 1.6019e-03 trn E 3.0054 val E 4.2472                                                          
+iter 150 lr 1.6019e-03 trn E 3.0228 val E 4.2402                                                          
+tst E 5.0811                                                                                              
+iter 151 lr 1.6019e-03 trn E 2.9256 val E 4.2097                                                          
+iter 152 lr 1.6019e-03 trn E 2.8248 val E 4.2241
+iter 153 lr 1.6019e-03 trn E 2.8404 val E 4.2353                                                          
+iter 154 lr 1.6019e-03 trn E 2.8129 val E 4.3997                                                          
+iter 155 lr 1.6019e-03 trn E 2.7571 val E 4.3378                                                          
+iter 156 lr 1.6019e-03 trn E 2.7533 val E 4.2353                                                          
+tst E 4.8573                                                                                              
+iter 157 lr 1.6019e-03 trn E 2.7624 val E 4.1943                                                          
+iter 158 lr 1.6019e-03 trn E 2.6542 val E 4.2813                                                          
+iter 159 lr 1.6019e-03 trn E 2.7750 val E 4.2219                                                          
+iter 160 lr 1.6019e-03 trn E 2.7242 val E 4.2961                                                          
+tst E 4.9889                                                                                              
+iter 161 lr 1.6019e-03 trn E 2.6981 val E 4.1919                                                          
+iter 162 lr 1.6019e-03 trn E 2.6800 val E 4.2220                                                          
+iter 163 lr 1.6019e-03 trn E 2.5905 val E 4.1961                                                          
+iter 164 lr 1.6019e-03 trn E 2.6242 val E 4.2033                                                          
+tst E 4.9993                                                                                              
+iter 165 lr 1.6019e-03 trn E 2.7353 val E 4.1687                                                          
+iter 166 lr 1.6019e-03 trn E 2.5847 val E 4.2169                                                          
+iter 167 lr 1.6019e-03 trn E 2.6146 val E 4.2170                                                          
+iter 168 lr 1.6019e-03 trn E 2.6212 val E 4.1733                                                          
+tst E 5.3310                                                                                              
+iter 169 lr 1.6019e-03 trn E 2.5875 val E 4.1671                                                          
+iter 170 lr 1.6019e-03 trn E 2.6413 val E 4.2296                                                          
+iter 171 lr 1.6019e-03 trn E 2.5918 val E 4.2072                                                          
+iter 172 lr 1.6019e-03 trn E 2.5745 val E 4.1886                                                          
+iter 173 lr 1.6019e-03 trn E 2.5497 val E 4.2195                                                          
+iter 174 lr 1.6019e-03 trn E 2.6065 val E 4.1966                                                          
+iter 175 lr 1.6019e-03 trn E 2.6223 val E 4.2295                                                          
+iter 176 lr 1.6019e-03 trn E 2.5656 val E 4.3225                                                          
+iter 177 lr 1.6019e-03 trn E 2.5532 val E 4.2516                                                          
+iter 178 lr 1.6019e-03 trn E 2.5001 val E 4.2211                                                          
+iter 179 lr 1.6019e-03 trn E 2.4676 val E 4.3048                                                          
+tst E 4.7919                                         
+iter 180 lr 1.6019e-03 trn E 2.5097 val E 4.1628     
+iter 181 lr 1.6019e-03 trn E 2.5634 val E 4.2640                                                          
+iter 182 lr 1.6019e-03 trn E 2.4952 val E 4.2992                                                          
+iter 183 lr 1.6019e-03 trn E 2.4575 val E 4.2819                                                          
+iter 184 lr 1.6019e-03 trn E 2.4459 val E 4.2235                                                          
+iter 185 lr 1.6019e-03 trn E 2.4638 val E 4.2227                                                          
+tst E 4.9818                                         
+iter 186 lr 1.6019e-03 trn E 2.4791 val E 4.1343                                                          
+iter 187 lr 1.6019e-03 trn E 2.4557 val E 4.1725                                                          
+iter 188 lr 1.6019e-03 trn E 2.4059 val E 4.2193                                                          
+iter 189 lr 1.6019e-03 trn E 2.3596 val E 4.1759                                                          
+iter 190 lr 1.6019e-03 trn E 2.4663 val E 4.2408                                                          
+iter 191 lr 1.6019e-03 trn E 2.4243 val E 4.1907                                                          
+iter 192 lr 1.6019e-03 trn E 2.4271 val E 4.1673                                                          
+iter 193 lr 1.6019e-03 trn E 2.3836 val E 4.2238                                                          
+iter 194 lr 1.6019e-03 trn E 2.4408 val E 4.1841                                                          
+iter 195 lr 1.6019e-03 trn E 2.3601 val E 4.1743                                                          
+iter 196 lr 1.6019e-03 trn E 2.4054 val E 4.1972                                                          
+iter 197 lr 1.6019e-03 trn E 2.3817 val E 4.2082                                                          
+iter 198 lr 1.6019e-03 trn E 2.3758 val E 4.2966                                                          
+iter 199 lr 1.6019e-03 trn E 2.4124 val E 4.1952                                                          
+iter 200 lr 1.6019e-03 trn E 2.3324 val E 4.2891                                                          
+iter 201 lr 1.6019e-03 trn E 2.4244 val E 4.2158                                                          
+iter 202 lr 1.6019e-03 trn E 2.3136 val E 4.2834                                                          
+iter 203 lr 1.6019e-03 trn E 2.3950 val E 4.3454                                                          
+iter 204 lr 1.6019e-03 trn E 2.3467 val E 4.1722                                                          
+iter 205 lr 1.6019e-03 trn E 2.3471 val E 4.2004                                                          
+iter 206 lr 1.6019e-03 trn E 2.3707 val E 4.1871                                                          
+iter 207 lr 1.6019e-03 trn E 2.2209 val E 4.1888                                                          
+tst E 4.9995                                         
+iter 208 lr 9.6117e-04 trn E 1.1547 val E 4.1168                                                          
+tst E 4.8064                                         
+iter 209 lr 9.6117e-04 trn E 0.9423 val E 4.0712                                                          
+iter 210 lr 9.6117e-04 trn E 0.9020 val E 4.1036                                                          
+iter 211 lr 9.6117e-04 trn E 0.9103 val E 4.0750   
+iter 212 lr 9.6117e-04 trn E 0.9034 val E 4.1225                                                          
+iter 213 lr 9.6117e-04 trn E 0.8919 val E 4.0936                                                          
+tst E 4.8836                                                                                              
+iter 214 lr 9.6117e-04 trn E 0.9000 val E 4.0687                                                          
+iter 215 lr 9.6117e-04 trn E 0.8611 val E 4.1020                                                          
+iter 216 lr 9.6117e-04 trn E 0.8659 val E 4.0743                                                          
+iter 217 lr 9.6117e-04 trn E 0.8849 val E 4.0765                                                          
+iter 218 lr 9.6117e-04 trn E 0.8798 val E 4.0740                                                          
+iter 219 lr 9.6117e-04 trn E 0.8770 val E 4.0869                                                          
+iter 220 lr 9.6117e-04 trn E 0.8619 val E 4.0850                                                          
+iter 221 lr 9.6117e-04 trn E 0.8606 val E 4.0847                                                          
+iter 222 lr 9.6117e-04 trn E 0.8702 val E 4.0733                                                          
+iter 223 lr 9.6117e-04 trn E 0.8617 val E 4.0944                                                          
+iter 224 lr 9.6117e-04 trn E 0.8523 val E 4.0760                                                          
+iter 225 lr 9.6117e-04 trn E 0.8536 val E 4.0928                                                          
+iter 226 lr 9.6117e-04 trn E 0.8307 val E 4.0955                                                          
+iter 227 lr 9.6117e-04 trn E 0.8430 val E 4.1247                                                          
+tst E 4.8793                                         
+iter 228 lr 9.6117e-04 trn E 0.8370 val E 4.0676                                                          
+iter 229 lr 9.6117e-04 trn E 0.8455 val E 4.0832                                                          
+iter 230 lr 9.6117e-04 trn E 0.8607 val E 4.1733                                                          
+iter 231 lr 9.6117e-04 trn E 0.8106 val E 4.0758                                                          
+tst E 4.7939                                         
+iter 232 lr 9.6117e-04 trn E 0.8606 val E 4.0574                                                          
+iter 233 lr 9.6117e-04 trn E 0.8406 val E 4.1042                                                          
+iter 234 lr 9.6117e-04 trn E 0.8460 val E 4.1057                                                          
+iter 235 lr 9.6117e-04 trn E 0.8180 val E 4.0979                                                          
+iter 236 lr 9.6117e-04 trn E 0.8211 val E 4.0943                                                          
+iter 237 lr 9.6117e-04 trn E 0.8471 val E 4.0804                                                          
+iter 238 lr 9.6117e-04 trn E 0.8387 val E 4.0761                                                          
+iter 239 lr 9.6117e-04 trn E 0.8125 val E 4.0615                                                          
+iter 240 lr 9.6117e-04 trn E 0.8295 val E 4.0724                                                          
+iter 241 lr 9.6117e-04 trn E 0.8449 val E 4.0785     
+iter 242 lr 9.6117e-04 trn E 0.8261 val E 4.1323                                                          
+iter 243 lr 9.6117e-04 trn E 0.8216 val E 4.0596                                                          
+iter 244 lr 9.6117e-04 trn E 0.8316 val E 4.0868                                                          
+iter 245 lr 9.6117e-04 trn E 0.8302 val E 4.0946                                                          
+iter 246 lr 9.6117e-04 trn E 0.8147 val E 4.0996                                                          
+iter 247 lr 9.6117e-04 trn E 0.8421 val E 4.0617                                                          
+iter 248 lr 9.6117e-04 trn E 0.8280 val E 4.1907                                                          
+iter 249 lr 9.6117e-04 trn E 0.8208 val E 4.0678                                                          
+iter 250 lr 9.6117e-04 trn E 0.7946 val E 4.0653                                                          
+iter 251 lr 9.6117e-04 trn E 0.8317 val E 4.0836                                                          
+iter 252 lr 9.6117e-04 trn E 0.8371 val E 4.0841                                                          
+iter 253 lr 9.6117e-04 trn E 0.8172 val E 4.0904                                                          
+tst E 4.7834                                                                                              
+iter 254 lr 5.7670e-04 trn E 0.4048 val E 4.0418                                                          
+tst E 4.7962                                                                                              
+iter 255 lr 5.7670e-04 trn E 0.3273 val E 4.0415                                                          
+iter 256 lr 5.7670e-04 trn E 0.3168 val E 4.0439                                                          
+tst E 4.9339                                                                                              
+iter 257 lr 5.7670e-04 trn E 0.3059 val E 4.0380                                                          
+iter 258 lr 5.7670e-04 trn E 0.3149 val E 4.0464                                                          
+tst E 4.8987                                                                                              
+iter 259 lr 5.7670e-04 trn E 0.3147 val E 4.0336                                                          
+iter 260 lr 5.7670e-04 trn E 0.3103 val E 4.0500                                                          
+iter 261 lr 5.7670e-04 trn E 0.2981 val E 4.0460                                                          
+iter 262 lr 5.7670e-04 trn E 0.3113 val E 4.0435                                                          
+iter 263 lr 5.7670e-04 trn E 0.2974 val E 4.0566                                                          
+iter 264 lr 5.7670e-04 trn E 0.2988 val E 4.0535                                                          
+tst E 4.9089                                         
+iter 265 lr 5.7670e-04 trn E 0.3148 val E 4.0316                                                          
+iter 266 lr 5.7670e-04 trn E 0.2942 val E 4.0427                                                          
+iter 267 lr 5.7670e-04 trn E 0.3025 val E 4.0385   
+iter 267 lr 5.7670e-04 trn E 0.3025 val E 4.0385                                                          
+iter 268 lr 5.7670e-04 trn E 0.3017 val E 4.0407                                                          
+iter 269 lr 5.7670e-04 trn E 0.3003 val E 4.0404                                                          
+iter 270 lr 5.7670e-04 trn E 0.3014 val E 4.0625                                                          
+iter 271 lr 5.7670e-04 trn E 0.3005 val E 4.0353                                                          
+iter 272 lr 5.7670e-04 trn E 0.3013 val E 4.0344                                                          
+tst E 4.8302                                         
+iter 273 lr 5.7670e-04 trn E 0.3018 val E 4.0302                                                          
+iter 274 lr 5.7670e-04 trn E 0.2994 val E 4.0321                                                          
+tst E 4.8332                                         
+iter 275 lr 5.7670e-04 trn E 0.2916 val E 4.0272                                                          
+iter 276 lr 5.7670e-04 trn E 0.2946 val E 4.0414                                                          
+iter 277 lr 5.7670e-04 trn E 0.2990 val E 4.0438                                                          
+iter 278 lr 5.7670e-04 trn E 0.2957 val E 4.0307                                                          
+iter 279 lr 5.7670e-04 trn E 0.2991 val E 4.0353                                                          
+iter 280 lr 5.7670e-04 trn E 0.2919 val E 4.0312                                                          
+iter 281 lr 5.7670e-04 trn E 0.3047 val E 4.0547                                                          
+iter 282 lr 5.7670e-04 trn E 0.2905 val E 4.0383                                                          
+iter 283 lr 5.7670e-04 trn E 0.2957 val E 4.0325                                                          
+iter 284 lr 5.7670e-04 trn E 0.2937 val E 4.0630                                                          
+iter 285 lr 5.7670e-04 trn E 0.3014 val E 4.0379                                                          
+iter 286 lr 5.7670e-04 trn E 0.2987 val E 4.0415                                                          
+iter 287 lr 5.7670e-04 trn E 0.2919 val E 4.0343                                                          
+iter 288 lr 5.7670e-04 trn E 0.2882 val E 4.0450                                                          
+iter 289 lr 5.7670e-04 trn E 0.2886 val E 4.0401                                                          
+iter 290 lr 5.7670e-04 trn E 0.3010 val E 4.0350                                                          
+iter 291 lr 5.7670e-04 trn E 0.2885 val E 4.0306                                                          
+iter 292 lr 5.7670e-04 trn E 0.2892 val E 4.0480                                                          
+iter 293 lr 5.7670e-04 trn E 0.3003 val E 4.0310                                                          
+iter 294 lr 5.7670e-04 trn E 0.3014 val E 4.0403                                                          
+iter 295 lr 5.7670e-04 trn E 0.3012 val E 4.0380                                                          
+iter 296 lr 5.7670e-04 trn E 0.2983 val E 4.0413       
